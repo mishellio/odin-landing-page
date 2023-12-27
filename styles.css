@@ -1,0 +1,101 @@
+div {
+    color: black;
+    background-color: white;
+}
+  
+p {
+    color: red;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+
+.hero {
+    background: plum;
+    /* border: 4px solid indigo; */
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-main {
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    width: 1050px;
+    height: 350px;
+    justify-content: left;
+}
+
+.hero-main-items {
+    background: peachpuff;
+    border: 4px solid brown;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.hero-main-text {
+    background: peachpuff;
+    border: 4px solid brown;
+    display: flex;
+    flex: 1;
+    justify-content: left;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+.headers {
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    width: 1050px;
+    height: 60px;
+    justify-content: center;
+}
+
+.header-logo{
+    background: plum;
+    border: 4px solid indigo;
+    display: flex;
+    width: 600px;
+    justify-content: left;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.header-link {
+    display: flex;
+    background: peachpuff;
+    border: 4px solid brown;
+    width: 150px;
+    font-family: Roboto, sans-serif;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    /* margin-left: auto; */
+}
+
+.flex-container {
+    display: flex;
+}
+  
+  /* this selector selects all divs inside of .flex-container */
+.flex-container div {
+    background: peachpuff;
+    border: 4px solid brown;
+    height: 100px;
+    flex: 1;
+}
