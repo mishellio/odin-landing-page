@@ -282,6 +282,11 @@ html, body {
     
 }
 
+.ref-button-size {
+    height: 40px;
+    width: 150px;
+}
+
 .cta-sign-up {
     margin-left: auto;
     border: 2px solid white;
